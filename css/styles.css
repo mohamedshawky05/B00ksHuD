@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar */
+  .navbar-brand {
+    font-weight: bold;
+    color: #333;
+  }
+  .container img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .nav-link {
+    color: #555;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #000;
+  }
+  
+  /* This Month Section */
+  .this-month h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  .a-s{
+    background-image: url(../assent/1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 666px;
+     width: 90%;
+     margin:auto;
+     padding: auto;
+  }
+  .text11{
+    padding: 200px  60px;
+
+  }
+  .text22{
+    font-size: 60px;
+    font-weight: 500;
+  }
+  .col-md-4 img{
+    width: 300px;
+    height: 300px;
+  }
+  .this-month p {
+    color: #777;
+  }
+  
+  .this-month img {
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .this-month img:hover {
+    transform: scale(1.05);
+  }
+  /* Footer */
+  footer {
+    background: #222;
+    color: #ccc;
+  }
+  
